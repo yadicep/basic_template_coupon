@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CUPPON PAGE</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- Link de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"/>
+    <!--Link de google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Link de FontAwesome -->
+    <script src="https://kit.fontawesome.com/4c455109a1.js" crossorigin="anonymous"></script>
+</head>
+
+  <body>
+
+    <!--Navbar-->
+    <nav class="navbar">
+      <div class="container-fluid">
+        <!--Se agrega la imagen logo-->
+        <!--Se modifico la clase navbar-brand (contiene el logo)-->
+        <a class="navbar-brand" href="#"><img src="./assets/img/logo-white.png" alt="CUPPON"/></a>
+        <!--Se modifico la clase navbar-toggler (contiene el icono de despliegue)-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Cupones</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Cupon 1</a></li>
+                  <li><a class="dropdown-item" href="#">Cupon 2</a></li>
+                  <li><hr class="dropdown-divider"/></li>
+                  <li><a class="dropdown-item" href="#">Otros Cupones</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Busca aquí tu cupón" aria-label="search"/>
+              <button class="btn btn-outline-success" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Contenido-->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card" style="border-color: #dddddd;">
+            <img src="./assets/img/cupon-1.jpg" class="card-img-top img-fluid" alt="..."/>
+            <div class="card-body">
+              <h5 class="card-title">Plumón Coral Fleece estampado en modelo y tamaño a elección</h5>
+              <p class="card-text">Plumones Manolino</p>
+              <div class="d-flex" style="color:#707070">
+                <i class="fa-solid fa-location-dot" style="margin-top: 3px; margin-right: 2px"></i>
+                <p class="texto-pequeño"> 9191 Avenida Vitacura, Chile</p>
+              </div>
+              <hr/>
+              <div class="d-flex justify-content-between mb-3">
+                <p class="monto-menor" style="margin-left: 190px">$45.000</p>
+                <p class="monto-mayor">$22.990</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card" style="border-color: #dddddd;">
+            <img src="./assets/img/cupon-2.jpg" class="card-img-top img-fluid" alt="..."/>
+            <div class="card-body">
+              <h5 class="card-title">Entrada para compartir + platos de fondo + postres + bebestibles</h5>
+              <p class="card-text">V for Vegan</p>
+              <div class="d-flex" style="color:#707070">
+                <i class="fa-solid fa-location-dot" style="margin-top: 3px; margin-right: 2px"></i>
+                <p class="texto-pequeño"> 777 Jesse Pinkman, Chile</p>
+              </div>
+              <hr/>
+              <div class="d-flex justify-content-between mb-3">
+                <p class="monto-menor" style="margin-left: 190px">$30.990</p>
+                <p class="monto-mayor">$12.990</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card" style="border-color: #dddddd;">
+            <img src="./assets/img/cupon-3.jpg" class="card-img-top img-fluid" alt="..."/>
+            <div class="card-body">
+              <h5 class="card-title">Evaluación integral + blanqueamiento dental led + limpieza + fluoración</h5>
+              <p class="card-text">Clínica Dental Quijada</p>
+              <div class="d-flex" style="color:#707070">
+                <i class="fa-solid fa-location-dot" style="margin-top: 3px; margin-right: 2px"></i>
+                <p class="texto-pequeño"> 1342, Blanco Encalada, Chile</p>
+              </div>
+              <hr/>
+              <div class="d-flex justify-content-between mb-3">
+                <p class="monto-menor" style="margin-left: 180px">$300.000</p>
+                <p class="monto-mayor">$25.990</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card" style="border-color: #dddddd;">
+            <img src="./assets/img/cupon-4.jpg" class="card-img-top img-fluid" alt="..."/>
+            <div class="card-body">
+              <h5 class="card-title">Colación para 2 personas + postre (no incluye bebidas)</h5>
+              <p class="card-text">Suricata almacen</p>
+              <div class="d-flex" style="color:#707070">
+                <i class="fa-solid fa-location-dot" style="margin-top: 3px; margin-right: 2px"></i>
+                <p class="texto-pequeño"> 1071 Miguel Claro, Chile</p>
+              </div>
+              <hr/>
+              <div class="d-flex justify-content-between mb-3">
+                <p class="monto-menor" style="margin-left: 220px">$4.200</p>
+                <p class="monto-mayor">$2.100</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card" style="border-color: #dddddd;">
+            <img src="./assets/img/cupon-5.jpg" class="card-img-top img-fluid" alt="..."/>
+            <div class="card-body">
+              <h5 class="card-title">1, 2 o 4 tickets para Stukids. Elige sucursal</h5>
+              <p class="card-text">Stukids Centro de Eventos</p>
+              <div class="d-flex" style="color:#707070">
+                <i class="fa-solid fa-location-dot" style="margin-top: 3px; margin-right: 2px"></i>
+                <p class="texto-pequeño"> 133 El tranque, Chile</p>
+              </div>
+              <hr/>
+              <div class="d-flex justify-content-between mb-3">
+                <p class="monto-menor" style="margin-left: 220px">$4.200</p>
+                <p class="monto-mayor">$2.100</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card" style="border-color: #dddddd;">
+            <img src="./assets/img/cupon-6.jpg" class="card-img-top img-fluid" alt="..."/>
+            <div class="card-body">
+              <h5 class="card-title">San Pedro de Atacama : 1 o 2 noches en alojamiento a elección</h5>
+              <p class="card-text">D-Latam Travel</p>
+              <hr/>
+              <div class="d-flex justify-content-between mb-3">
+                <p class="monto-menor" style="margin-left: 190px">$80.200</p>
+                <p class="monto-mayor">$44.100</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Suscripción -->
+    <section class="subscribe-section py-5 bg-light" style="margin: 0;">
+      <div class="container cont" style="padding-bottom: 30px; background-color: #28A745;">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2 class="sup-titulo">Recibe cupones en tu correo</h2>
+            <form>
+              <div class="row g-3">
+                <div class="col-md">
+                  <input type="text" class="form-control cuadros-texto" placeholder="Nombre" aria-label="Nombre" required/>
+                </div>
+                <div class="col-md">
+                  <input type="email" class="form-control cuadros-texto" placeholder="Correo electrónico" aria-label="Correo electrónico"required/>
+                </div>
+              </div>
+              <button type="submit" class="btn mt-3 enviar" style="background-color: white; color: #000000; font-weight: bold;">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!--Footer-->
+    <section class="cuadro-img-ba">
+      <div>
+        <img src="./assets/img/logo-black.png" alt="" class="img-black">
+        <p class="text-ba">© 2018 Cuppon Latam .Todos los derechos reservados.</p>
+      </div>
+    </section>
+
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  </body>
+</html>

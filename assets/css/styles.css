@@ -1,0 +1,91 @@
+*{
+  border:0;
+  margin:0;
+  padding: 0;
+}
+.navbar{
+  height: 62pt;
+  background-color: #28a745;
+}
+.navbar-brand img{
+  width: 86pt;
+  height: 25pt;
+  margin-left: 20px;
+}
+.navbar-toggler{
+  width: 59pt;
+  height: 42pt;
+}
+.row{
+  padding-top: 20pt;
+  padding-left: 20pt;
+  padding-right: 20pt;
+}
+.card-title{
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  font-size: 20pt;
+  font-weight: 300;
+  color: #212529;
+}
+.card-text{
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  font-size: 16pt;
+  color: #707070;
+  margin-bottom: -8px;
+}
+.texto-pequeño{
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  font-size: 13pt;
+  color: #707070;
+}
+.monto-menor{
+  font-family: "Roboto", sans-serif;
+  text-align: right;
+  font-size: 16pt;
+  color: #707070;
+  margin-bottom: -10px;
+  margin-top: 8px;
+}
+.monto-mayor{
+  font-family: "Roboto", sans-serif;
+  text-align: right;
+  font-size: 20pt;
+  color: #28a745;
+  font-weight: 600;
+  margin-bottom: -10px;
+}
+.cont{
+  background-color: #28a745;
+  padding-bottom: 40px;
+}
+.enviar{
+  width: 112pt;
+  height: 40pt;
+  font-size: 16pt;
+}
+.cuadros-texto{
+  width: 278pt;
+  height: 40pt;
+}
+.sup-titulo{
+  color: #ffffff;
+  font-size: 21pt;
+}
+.img-black{
+  width: 82pt;
+  height: 24pt;
+  display: flex;
+  display: inline-block;
+}
+.cuadro-img-ba{
+  text-align: center;
+}
+.text-ba{
+  display: flex;
+  display: inline-block;
+  font-size: 16pt;
+  color: #707070;
+}
